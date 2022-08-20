@@ -1,0 +1,59 @@
+* {
+    box-sizing:
+}
+
+.h1 {
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cities {
+    height: 500px;
+    width: 250px;
+    padding: 20px;
+    background-color: black;
+    float: left;
+}
+
+.h2, .weatherForcast {
+  border: 2px solid rebeccapurple;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.li {
+  border: 2px solid blue;
+  padding: .5em;
+  height: 250px;
+  width: 100px;
+}
+
+.weatherForcast {
+  display: flex;
+  list-style: none;
+}
+
+
+
+/*
+.h2 {
+q   float: left; 
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+
+.cities, .weatherForcast {
+    background-color: black;
+    float: left;
+    display: table;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 25%;
+}
+
+*/

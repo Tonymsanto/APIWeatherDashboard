@@ -1,48 +1,37 @@
 * {
-    background-color: azure;
+  background-color: azure;
 }
 
-.h1 {
-    text-align: center;
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    
+.header, h1, h2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .searchCities {
-    height: 585px;
-    width: 250px;
-    padding: 20px;
-    background-color: darkgreen;
-    color: white;
-    text-align: center;
-    float: left;
-}
-
-.currentCity {
-    height: 200px;
-    width: 100%;
-    background-color: green;
-    color: white;
-    text-align: center;
-}
-
-.h2, .weatherForecast {
-  border: 2px solid rebeccapurple;
+  height: 100vh;
+  width: 250px;
   padding: 20px;
+  background-color: darkgreen;
+  color: white;
   text-align: center;
-  
+  float: left;
 }
 
-.li {
-  border: 2px solid blue;
-  padding: .5em;
-  height: 250px;
-  width: 400px;
-}
-
-.weatherForecast {
+.weather {
+  /* position: relative; */
   display: flex;
-  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.forecast {
+  /* position: absolute; */
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 40px auto;
+  width: 700px;
+  /* margin-top: 40%; */
 }

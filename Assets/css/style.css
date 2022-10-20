@@ -19,19 +19,29 @@
 }
 
 .weather {
-  /* position: relative; */
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.forecast {
-  /* position: absolute; */
+.todayForecast {
+  position: absolute;
   text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 40px auto;
   width: 700px;
-  /* margin-top: 40%; */
+}
+
+.forecast {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 40px auto;
+  width: 700px;
+  margin-top: 40%;
 }
